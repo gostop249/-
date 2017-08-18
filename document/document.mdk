@@ -30,13 +30,6 @@ _商业部分_
 * 区块链评估评级中心
 
 
-~ Figure{#HiDao; caption:"孵化器产业模式"; page-align:here}
-![1.pic_hd]
-~
-
-
-[1.pic_hd]: images/1.pic_hd.jpg "1.pic_hd" { width:auto; max-width:70% }
-
 #技术概要
 
 pre-ICO->ICO->post-ICO
@@ -51,7 +44,9 @@ pre-ICO->ICO->post-ICO
 * 关联海盗窝BTC/ETH钱包
 
 ### 账户管理
+
 * 账户注册
+
   : 投资人账户
   : 投资人BTC/ETH钱包关联
   : 共享一个大海盗币钱包，由海盗窝管理(管理成本低)。
