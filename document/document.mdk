@@ -108,19 +108,6 @@ pre-ICO->ICO->post-ICO
 ### 孵化企业账户
 * 企业海盗币钱包
 
-### 生态圈服务接口
-
-* 被孵化对象ICO
-
-  _提供区块链核心技术API_
-
-* 通过区块链Dapp为孵化对象提供企业服务
-
-  _金融、自贸、博览会、培训..._
-
-* 代币流转
-
-  _大小币<->企业自发行代币_
 
 ### 海盗币管理
 * 增发合约
@@ -136,49 +123,25 @@ pre-ICO->ICO->post-ICO
   _私人钱包管理工具开发_
   
   _密钥协议_
+  
+
+### 海盗币发展
+
+* 生态圈服务Dapp接口
+
+  _加速优秀企业发展_
+  
+* 代币使用
+
+  _服务智能合约(共享经济)_
+  
+  _投资智能合约(向海盗窝孵化对象融资)_
+
+  _流转(大小币，企业自发行代币，BTC/ETH,无忧快速的回报)_
+  
+  _ _
 
 
-
-
-#备忘事项
-
-* 将募集的资金分步骤分阶段交给该公司。公司必需要在某个时间段实现技术或产品的预定目标，才能接着获取另一笔接下来的研发资金——孵化器的督促和指导作用也在此体现
-
-
-1. 基于以太坊，开发具有高扩展性的Dapp，先提供海盗窝本身核心服务的智能合约，为其他圈内企业进行区块链代币发行、共享服务的智能合约开发使用提供平台。
-2. 针对孵化企业同样有自行发币以及构建区块链网络的情况，开发跨链API调用技术，助推圈内不同企业间自由的职能共享。
-3. 开发Oracle接口以实现圈内不同企业间共享服务资源的获取和提供，以及自动执行、付款等操作。
-4. 开发企业服务价值评估协议，提供可证明的共识以及可追溯性，建立生态圈的信用体系。
-5. 开发智能合约模板，引导圈内企业根据自身企业特点，帮助他们以智能合约的形式，在链上提供安全可靠的扩展服务。
-
-
-
-
-
-
-A definition of $e$ is shown in Equation [#euler] proved by Theorem [#th-euler]:
-
-~ Equation { #euler }
-e = \lim_{n\to\infty} \left( 1 + \frac{1}{n} \right)^n
-~
-
-~ Theorem {#th-euler; caption:"Euler's theorem" }
-More math here.
-~
-
-Let's program some Javascript:
-``` javascript
-function hello() {
-  return "hello world!"
-}
-```
-
-~ Note
-The syntax highlighting works in the PDF output too.
-~
-
-# Conclusion
-
-Really fun to write Markdown :-)
+---------------------------------------------
 
 [BIB]
