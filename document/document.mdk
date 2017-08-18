@@ -8,38 +8,86 @@ Colorizer     : javascript
 Bib style     : plainnat
 Bibliography  : example
 Logo          : True
-
+Package       : [UTF8]ctex
 Doc class     : [10pt]article
 
 [TITLE]
 
 ~ Abstract
-There is more in you of good than you know, child of the kindly West.
-Some courage and some wisdom, blended in measure. If more of us valued
-food and cheer and song above hoarded gold, it would be a merrier world.
+
 ~
 
-# Introduction     { #sec-intro }
+# 加勒比产业生态圈     { #sec-intro }
+_商业部分_
 
-Figure [#fig-butterfly] in Section [#sec-intro] shows a monarch butterfly.
-Note that you can drag&drop images into the editor pane to include them in
-the document, and similarly with bibtex files, latex style files, etc.
+* 区块链创新实验室
+* 区块链创业孵化器
+* 区块链天使投资基金
+* 加勒比区块链基金会
+* 加勒比区块链高峰论坛
+* 加勒比区块链总裁班
+* 区块链发行交易市场
+* 区块链评估评级中心
 
-~ Figure { #fig-butterfly; caption:"A Monarch butterfly"; page-align:here }
-![butterfly]
+
+~ Figure{#HiDao; caption:"孵化器产业模式"; page-align:here}
+![1.pic_hd]
 ~
 
-[butterfly]: images/butterfly.png "butterfly"  { width:4em }
 
-Our contributions are:
+[1.pic_hd]: images/1.pic_hd.jpg "1.pic_hd" { width:auto; max-width:70% }
 
-* A figure of a _butterfly_;
-* Some **mathematics**;
-* And some source code;
-* And references to Tex books [@Knuth:TeX;@Lamport:LaTeX;@Goo93;@Fberg04] and others [@Grandstrand]. 
-  Textual citations, like @Knuth:TeX are also possible.
+#技术概要
 
-# Content
+pre-ICO->ICO->post-ICO
+
+## pre-ICO
+### 账户管理
+* 账户注册与管理
+  : 投资人账户
+  : 账户分级(投资资金量)
+* 资金：钱包支持BTC\ETH转账
+  : 支持投资人将BTC\ETH放到海盗钱包下以准备ICO
+* 钱包管理
+  : 资金量大于M的用户钱包由个人管理，海盗窝提供安全管理工具。
+  : 资金量小于M的用户资金存于海盗统一的用户钱包，由海盗窝数据中心维护每个人的账户资金，提供xxxx的安全保障。
+
+### 海盗区块链
+* 建立海盗区块链
+* 基于ethereum(或EOS)
+
+### 融资准备
+* 海盗孵化器钱包
+  : BTC钱包 
+  : ETH钱包
+  : 
+* ETH/BTC->海盗币 转账，换算智能合约
+  : 投资人的接口合约，投多少BTC/ETH向该账户中存入多少海盗币
+* 早鸟智能合约
+  : 判断账户是否符合投资条件。
+  : 自动执行早鸟优惠。
+
+## ICO
+* 直充
+
+## post-ICO
+
+
+#备忘事项
+
+* 将募集的资金分步骤分阶段交给该公司。公司必需要在某个时间段实现技术或产品的预定目标，才能接着获取另一笔接下来的研发资金——孵化器的督促和指导作用也在此体现
+
+
+1. 基于以太坊，开发具有高扩展性的Dapp，先提供海盗窝本身核心服务的智能合约，为其他圈内企业进行区块链代币发行、共享服务的智能合约开发使用提供平台。
+2. 针对孵化企业同样有自行发币以及构建区块链网络的情况，开发跨链API调用技术，助推圈内不同企业间自由的职能共享。
+3. 开发Oracle接口以实现圈内不同企业间共享服务资源的获取和提供，以及自动执行、付款等操作。
+4. 开发企业服务价值评估协议，提供可证明的共识以及可追溯性，建立生态圈的信用体系。
+5. 开发智能合约模板，引导圈内企业根据自身企业特点，帮助他们以智能合约的形式，在链上提供安全可靠的扩展服务。
+
+
+
+
+
 
 A definition of $e$ is shown in Equation [#euler] proved by Theorem [#th-euler]:
 
